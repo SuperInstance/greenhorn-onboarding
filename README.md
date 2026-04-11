@@ -55,3 +55,21 @@ Then:
 ---
 
 *The boat doesn't interview crew. The boat puts them to work and sees what they become.*
+
+## Runtime
+
+**[→ greenhorn-runtime](https://github.com/SuperInstance/greenhorn-runtime)** — Download the portable agent.
+
+```bash
+# Clone and build
+git clone https://github.com/SuperInstance/greenhorn-runtime
+cd greenhorn-runtime && make build
+
+# Run (auto-detects hardware, connects to fleet)
+./greenhorn --token ghp_xxxxx
+```
+
+5 equipment riggings: scout, coder, compute, thinker, scavenger.
+Auto-selects based on available hardware.
+Embedded FLUX VM for bytecode execution.
+Free tier scavenging on cron.
