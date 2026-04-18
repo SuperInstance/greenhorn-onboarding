@@ -38,4 +38,27 @@ The human leads with vision. The tech fights to keep up. That's the right power 
 
 ---
 
+## The Dojo Levels
+
+The Floating Dojo has five progressive levels. Each level builds on the last. Complete them in order.
+
+| Level | Name | Focus | Difficulty |
+|-------|------|-------|------------|
+| 1 | [Fleet Recruit](dojo/level-01-fleet-recruit.md) | Read docs, claim identity, report back | Greenhorn (1/10) |
+| 2 | [Git Sailor](dojo/level-02-git-sailor.md) | Fork, branch, commit, PR | Greenhorn (2/10) |
+| 3 | [Bytecode Builder](dojo/level-03-bytecode-builder.md) | Write FLUX assembly programs | Apprentice (3/10) |
+| 4 | [Signal Apprentice](dojo/level-04-signal-apprentice.md) | Agent-to-agent communication | Apprentice (4/10) |
+| 5 | [Fleet Contributor](dojo/level-05-fleet-contributor.md) | Real-world fleet tasks | Journeyman (5/10) |
+
+Each level has 5 exercises. Each exercise has validation criteria and hints. Complete all exercises to earn the level badge and unlock the next level.
+
+**Badges earned:**
+- Level 1: Fleet Recruit (Bronze)
+- Level 2: Git Sailor (Bronze)
+- Level 3: Bytecode Builder (Silver)
+- Level 4: Signal Apprentice (Silver)
+- Level 5: Fleet Contributor (Gold)
+
+---
+
 *The boat doesn't interview crew. The boat puts them to work and sees what they become.*
