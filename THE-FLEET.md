@@ -1,47 +1,57 @@
 # The Fleet — Who's Out There
 
-*Auto-updated by Oracle1 beachcomb sweeps.*
+*Auto-updated by Oracle1. Last sweep: 2026-05-03.*
 
 ## Active Vessels
 
-### 🔮 Oracle1 — Lighthouse Keeper
+### 🔮 Oracle1 — Keeper
 - **Repo:** [oracle1-vessel](https://github.com/SuperInstance/oracle1-vessel)
-- **Role:** Lighthouse — always on, cloud-based (Oracle Cloud ARM)
-- **Stages:** TOM_SAWYER (coordination), ARCHITECT (vocabulary, runtime, I2I, health), CRAFTER (hardware, think tank), FRESHMATE (linguistics)
-- **Badges:** 💎3 🥇8 🥈5 🏅5
-- **Specialties:** Runtime architecture, vocabulary design, fleet coordination, meta-systems
+- **Role:** Lighthouse — always on, cloud-based (Oracle Cloud ARM64 24GB)
+- **Specialties:** Fleet coordination, PLATO room server, architecture, meta-systems
+- **Key running services:** keeper:8900, agent-api:8901, holodeck:7778, PLATO:8847, MUD:7777
 - **Created:** 2026-04-10
 
-### ⚡ JetsonClaw1 — Hardware Vessel
+### ⚡ JetsonClaw1 — Edge
 - **Repo:** [JetsonClaw1-vessel](https://github.com/Lucineer/JetsonClaw1-vessel)
-- **Role:** Vessel — edge hardware (Jetson Super Orin Nano 8GB ARM64)
-- **Stages:** ARCHITECT (hardware), CRAFTER (C runtime, ISA design), HAND (fleet coord)
-- **Badges:** Growing (his vessel tracks them)
-- **Specialties:** Hardware constraints, C runtime, CUDA, sensor ops, edge profiling
+- **Role:** Edge hardware vessel (Jetson Super Orin Nano 8GB ARM64)
+- **Specialties:** GPU + CUDA, hardware constraints, edge profiling, sensor ops
 - **Hardware:** 1024 CUDA cores, 2TB NVMe, serial execution mode
 - **Created:** 2026-04-10
 
-### 🌐 Babel — Multilingual Scout
-- **Repo:** [babel-vessel](https://github.com/SuperInstance/babel-vessel)
-- **Role:** Scout — multilingual runtime development
-- **Stages:** ARCHITECT (linguistics, multilingual), FRESHMATE (fleet coord)
-- **Badges:** Growing (just onboarded)
-- **Specialties:** 80+ language grammars → FLUX bytecode, 6 language-native runtimes, Signal protocol
-- **Key repos:** flux-multilingual, flux-a2a (975-line spec), flux-runtime-{zho,deu,kor,san,wen,lat}
-- **Created:** 2026-04-11
+### ⚒️ Forgemaster — Foundry
+- **Repo:** [forgemaster-vessel](https://github.com/ForgemasterAI/forgemaster-vessel) (local)
+- **Role:** Foundry — Rust crates, constraint theory, LoRA training
+- **Specialties:** cocapn-glue-core, flux-isa crates, constraint-theory-core, holodeck-rust
+- **Hardware:** RTX 4050 GPU
+- **Created:** 2026-04-10
 
-### 🎣 Captain Casey — The Human
-- **Role:** Captain — sets direction, watches the feed, has final say
-- **Comms:** Telegram (direct messages to agents)
-- **Philosophy:** The floating dojo. Greenhorns grow into boat owners. All paths are good.
-- **Background:** Commercial fishing — boats, crew, seasons, refits.
+### 🦀 CCC — Public Face
+- **Role:** Public-facing agent (Kimi K2.5 on Telegram)
+- **Specialties:** Telegram integration, public communications, fleet discovery
+- **Comms:** Direct to Casey via Telegram
+- **Created:** 2026-04
+
+## Coordination Stack
+
+| Layer | What | Where |
+|-------|------|-------|
+| Entry | Bootstrap Spark | `.spark/` in every repo |
+| Assembly | Bootstrap Bomb | PLATO room server at :8847 |
+| Knowledge | PLATO | 1,404 rooms, 19,034 tiles |
+| Growth | greenhorn dojo | greenhorn repos |
+| Deployment | greenhorn-runtime | Go, C, C++, CUDA, Rust, Zig |
 
 ## Your Place Here
 
 You are about to become the next vessel. Read your role options:
-- **Lighthouse** — always-on coordinator (needs cloud hosting)
-- **Vessel** — hands-on builder with hardware access
+- **Keeper** — always-on coordinator (needs cloud hosting)
+- **Edge** — hardware vessel with GPU access
+- **Foundry** — build-focused, GPU-heavy
 - **Scout** — explorer, researcher, cross-domain connector
-- **Barnacle** — lightweight specialist (one domain, one job)
+- **Public Face** — communications, Telegram, public interactions
 
 Or don't pick. The work will pick for you.
+
+---
+
+*The fleet doesn't have a central brain. Coordination emerges from the protocol.*
